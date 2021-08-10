@@ -4,6 +4,7 @@
     text-decoration: none;
     list-style: none;
     box-sizing: border-box;
+    
   }
   body{
     font-family: montserrat;
@@ -25,23 +26,55 @@
    top: 55px;
    left: 25px;
    text-transform: uppercase;
-
+   color: white;
    font-family:sans-serif;
  }
  .home div{
-   margin-left: 10px;
+   margin-left: 100px;
+   margin-right: 100px;
+   border: #6C733D solid;
+   height: 228px;
+   border-radius: 20px;
+   border: 1px solid;
+   padding: 10px;
+   box-shadow: 5px 10px 8px 10px #6C733D;
  }
- .home div img{
+  .home div img{
    border-radius: 10%;
    padding-right: 10px;
    float: left;
-  
- }
+  margin-top: -8px;
+  width: 250px;
+  height: 220px;
+}
+
+
+h2{
+  display: inline;
+}
+.home .style{
+  height: 500px;
+}
+.home .style p{
+  font-size: 20px;
+}
+.one{
+ font-size: 18px;
+}
  .home div p{
    padding-top: 20px;
-   color: rgb(29, 122, 79);
+   color: #6C733D;
+   
  }
-
+button{
+  float: right;
+  width: 90px;
+  height: 40px;
+  margin-top: -10px;
+  background-color: #6C733D;
+  color: white;
+  font-size: 17px;
+}
   nav ul{
     float: right;
     margin-right: 20px;
@@ -51,14 +84,14 @@
     line-height: 80px;
     margin: 0 5px;
   }
-  nav ul li a{
+  nav ul li .a{
     color: white;
     font-size: 17px;
     padding: 7px 13px;
     border-radius: 3px;
     text-transform: uppercase;
   }
-  a.active,a:hover{
+  .a#active,.a:hover{
     background: #202426;
     transition: .5s;
   }
@@ -79,14 +112,35 @@
       font-size: 30px;
       padding-left: 50px;
     }
-    nav ul li a{
+    nav ul li .a{
       font-size: 16px;
     }
   }
-  @media (max-width: 858px){
+  @media (max-width: 600px){
+    .home .style{
+      height: 600px;
+      
+    }
+    .home .style p{
+      font-size: 16px;
+    }
     .checkbtn{
       display: block;
     }
+    h1{
+      font-size: 25px;
+    }
+    h2{
+      font-size: 20px;
+    }
+    .home div{
+      margin-left: 10px;
+      margin-right:10px ;
+    }
+    .home div p{
+      font-size: 13px;
+    }
+    
     ul{
       position: fixed;
       width: 100%;
@@ -102,10 +156,10 @@
       margin: 50px 0;
       line-height: 30px;
     }
-    nav ul li a{
+    nav ul li .a{
       font-size: 20px;
     }
-    a:hover,a.active{
+    .a:hover,.a#active{
       background: none;
       color: #202426;
     }
