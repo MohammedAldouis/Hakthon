@@ -38,25 +38,30 @@
    border: 1px solid;
    padding: 10px;
    box-shadow: 5px 10px 8px 10px #6C733D;
+   
  }
   .home div img{
-   border-radius: 10%;
+   border-radius: 20%;
    padding-right: 10px;
    float: left;
   margin-top: -8px;
   width: 250px;
   height: 220px;
+  padding: 10px 10px 10px 10px;
 }
 
 
 h2{
   display: inline;
+  padding: 20px 20px 20px 20px;
 }
 .home .style{
   height: 500px;
+ 
 }
 .home .style p{
   font-size: 20px;
+  padding: 20px 20px 20px 20px;
 }
 .one{
  font-size: 18px;
@@ -64,7 +69,7 @@ h2{
  .home div p{
    padding-top: 20px;
    color: #6C733D;
-   
+   padding: 20px 20px 20px 20px;
  }
 button{
   float: right;
@@ -119,10 +124,14 @@ button{
   @media (max-width: 600px){
     .home .style{
       height: 600px;
-      
+      padding:5px ;
+    }
+    .home div{
+      padding:5px ;
     }
     .home .style p{
       font-size: 16px;
+      padding: 20px 20px 20px 20px;
     }
     .checkbtn{
       display: block;
@@ -132,6 +141,7 @@ button{
     }
     h2{
       font-size: 20px;
+     
     }
     .home div{
       margin-left: 10px;
@@ -139,6 +149,7 @@ button{
     }
     .home div p{
       font-size: 13px;
+      padding: 20px 20px 20px 20px;
     }
     
     ul{
